@@ -6,7 +6,7 @@ interface FooterSections {
 
 export default function Footer() {
     const footerSections: FooterSections = {
-        product: ['Features', 'Pricing', 'Demo', 'App'],
+        product: ['Features', 'Pricing', 'Demo', 'App', 'Dashboard'],
         company: ['About', 'Contact', 'Careers', 'Partners'],
         resources: ['FAQ', 'Help', 'Support', 'Privacy'],
     };
@@ -28,7 +28,10 @@ export default function Footer() {
                             <ul className="list-none flex flex-col gap-3">
                                 {footerSections.product.map((link) => (
                                     <li key={link}>
-                                        <a href="/dashboard" className="text-sm text-[#6E706F] transition-colors duration-300 hover:text-dark-gray">
+                                        <a
+                                            href={(link === 'Dashboard' || link === 'App') ? '/dashboard' : '#'}
+                                            className="text-sm text-[#6E706F] transition-colors duration-300 hover:text-dark-gray"
+                                        >
                                             {link}
                                         </a>
                                     </li>
