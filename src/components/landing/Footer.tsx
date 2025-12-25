@@ -28,7 +28,7 @@ export default function Footer() {
                             <ul className="list-none flex flex-col gap-3">
                                 {footerSections.product.map((link) => (
                                     <li key={link}>
-                                        <a href="#" className="text-sm text-[#6E706F] transition-colors duration-300 hover:text-dark-gray">
+                                        <a href="/dashboard" className="text-sm text-[#6E706F] transition-colors duration-300 hover:text-dark-gray">
                                             {link}
                                         </a>
                                     </li>
