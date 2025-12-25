@@ -1,0 +1,96 @@
+{
+    "header": {
+        "language": "Idioma",
+        "english": "Inglés",
+        "hispanic": "Hispano",
+        "admin": "Usuario admin"
+    },
+    "sidebar": {
+        "main_menu": "MENÚ PRINCIPAL",
+        "dashboard": "Tablero",
+        "tickets": "Tickets",
+        "dispatch": "Despacho",
+        "schedule": "Horario",
+        "management": "GESTIÓN",
+        "my_jobs": "Trabajos",
+        "invoices": "Facturas",
+        "vehicles": "Gestión de Flotas",
+        "settings": "CONFIGURACIÓN",
+        "profile": "Perfil",
+        "log_out": "Cerrar Sesión"
+    },
+    "revenue": {
+        "revenue_to_date": "Ingresos hasta la fecha",
+        "stamped_cd": "CD Estampado",
+        "material_cost": "Costo de Material por Pagar",
+        "contractor_payable": "Monto a Pagar al Contratista",
+        "progress_target": "Progreso al Objetivo de $2M",
+        "avg_per_day": "{{amount}}/día prom"
+    },
+    "financial": {
+        "title": "Resumen Financiero",
+        "subtitle": "Análisis de Ingresos, COGS y Beneficio Neto",
+        "total_revenue": "Ingresos Totales",
+        "total_cogs": "COGS Total",
+        "gross_profit": "Beneficio Bruto",
+        "from_last_period": "{{percent}}% desde el último período"
+    },
+    "dispatch": {
+        "title": "Despacho Activo",
+        "subtitle": "Últimos despachos con estado asignado",
+        "truck": "Camión:",
+        "loads": "Cargas:",
+        "tons": "Toneladas:",
+        "see_all": "Ver Todo"
+    },
+    "active_jobs": {
+        "title": "Trabajos Activos",
+        "subtitle": "Resumen de todos los trabajos activos",
+        "table": {
+            "job_no": "Nº Trabajo",
+            "customer": "Cliente",
+            "status": "Estado",
+            "amount": "Monto",
+            "active": "Activo",
+            "pending": "Pendiente",
+            "completed": "Completado"
+        },
+        "see_all": "Ver Todos los Trabajos Activos"
+    },
+    "maintenance": {
+        "title": "Programa de Mantenimiento",
+        "subtitle": "Mantenimiento próximo y vencido",
+        "overdue": "Vencido",
+        "upcoming": "Próximo",
+        "no_maintenance": "No hay mantenimiento programado",
+        "schedule_maintenance": "Programar Mantenimiento",
+        "open": "Abierto",
+        "in_progress": "En Progreso",
+        "no_overdue": "No hay mantenimiento vencido",
+        "all_good_message": "¡Todos los programas de mantenimiento están al día! Buen trabajo manteniendo la flota saludable.",
+        "view_details": "Ver detalles de Mantenimiento de Flota"
+    },
+    "completed_maintenance": {
+        "title": "Mantenimiento Completado",
+        "subtitle": "Historial de tareas de mantenimiento completadas",
+        "filters": {
+            "all_vehicles": "Todos los Vehículos",
+            "all_types": "Todos los Tipos",
+            "all_status": "Todos los Estados",
+            "start_date": "Fecha de Inicio",
+            "end_date": "Fecha Final",
+            "clear_filters": "Borrar Filtros"
+        },
+        "table": {
+            "vehicle": "Vehículo",
+            "service_type": "Tipo de Servicio",
+            "type": "Tipo",
+            "date": "Fecha",
+            "technician": "Técnico",
+            "cost": "Costo",
+            "status": "Estado",
+            "details": "Detalles"
+        },
+        "view_details": "Ver Detalles de Mantenimiento Completado"
+    }
+}

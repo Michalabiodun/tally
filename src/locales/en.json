@@ -1,0 +1,96 @@
+{
+    "header": {
+        "language": "Language",
+        "english": "English",
+        "hispanic": "Hispanic",
+        "admin": "Admin user"
+    },
+    "sidebar": {
+        "main_menu": "MAIN MENU",
+        "dashboard": "Dashboard",
+        "tickets": "Tickets",
+        "dispatch": "Dispatch",
+        "schedule": "Schedule",
+        "management": "MANAGEMENT",
+        "my_jobs": "Jobs",
+        "invoices": "Invoices",
+        "vehicles": "Fleet Management",
+        "settings": "SETTINGS",
+        "profile": "Profile",
+        "log_out": "Log Out"
+    },
+    "revenue": {
+        "revenue_to_date": "Revenue to Date",
+        "stamped_cd": "Stamped CD",
+        "material_cost": "Material Cost Payable",
+        "contractor_payable": "Contractor Payable Amount",
+        "progress_target": "Progress to $2M Target",
+        "avg_per_day": "{{amount}}/day avg"
+    },
+    "financial": {
+        "title": "Financial Overview",
+        "subtitle": "Revenue, COGS, and Net profit analysis",
+        "total_revenue": "Total Revenue",
+        "total_cogs": "Total COGS",
+        "gross_profit": "Gross Profit",
+        "from_last_period": "{{percent}}% from last period"
+    },
+    "dispatch": {
+        "title": "Active Dispatch",
+        "subtitle": "Latest dispatches with assigned status",
+        "truck": "Truck:",
+        "loads": "Loads:",
+        "tons": "Tons:",
+        "see_all": "See All"
+    },
+    "active_jobs": {
+        "title": "Active Jobs",
+        "subtitle": "Overview of all active jobs",
+        "table": {
+            "job_no": "Job No",
+            "customer": "Customer",
+            "status": "Status",
+            "amount": "Amount",
+            "active": "Active",
+            "pending": "Pending",
+            "completed": "Completed"
+        },
+        "see_all": "See All Active Jobs"
+    },
+    "maintenance": {
+        "title": "Maintenance Schedule",
+        "subtitle": "Upcoming and overdue maintenance",
+        "overdue": "Overdue",
+        "upcoming": "Upcoming",
+        "no_maintenance": "No maintenance scheduled",
+        "schedule_maintenance": "Schedule Maintenance",
+        "open": "Open",
+        "in_progress": "In Progress",
+        "no_overdue": "No overdue maintenance",
+        "all_good_message": "All maintenance schedules are up to date! Great job keeping the fleet healthy.",
+        "view_details": "View Fleet Maintenance details"
+    },
+    "completed_maintenance": {
+        "title": "Completed Maintenance",
+        "subtitle": "History of completed maintenance tasks",
+        "filters": {
+            "all_vehicles": "All Vehicles",
+            "all_types": "All Types",
+            "all_status": "All Status",
+            "start_date": "Start Date",
+            "end_date": "End Date",
+            "clear_filters": "Clear Filters"
+        },
+        "table": {
+            "vehicle": "Vehicle",
+            "service_type": "Service Type",
+            "type": "Type",
+            "date": "Date",
+            "technician": "Technician",
+            "cost": "Cost",
+            "status": "Status",
+            "details": "Details"
+        },
+        "view_details": "View Completed Maintenance Details"
+    }
+}
