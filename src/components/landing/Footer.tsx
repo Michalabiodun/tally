@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom';
+
 interface FooterSections {
     product: string[];
     company: string[];
@@ -28,12 +30,21 @@ export default function Footer() {
                             <ul className="list-none flex flex-col gap-3">
                                 {footerSections.product.map((link) => (
                                     <li key={link}>
-                                        <a
-                                            href={(link === 'Dashboard' || link === 'App') ? '/dashboard' : '#'}
-                                            className="text-sm text-[#6E706F] transition-colors duration-300 hover:text-dark-gray"
-                                        >
-                                            {link}
-                                        </a>
+                                        {(link === 'Dashboard' || link === 'App') ? (
+                                            <Link
+                                                to="/dashboard"
+                                                className="text-sm text-[#6E706F] transition-colors duration-300 hover:text-dark-gray"
+                                            >
+                                                {link}
+                                            </Link>
+                                        ) : (
+                                            <a
+                                                href="#"
+                                                className="text-sm text-[#6E706F] transition-colors duration-300 hover:text-dark-gray"
+                                            >
+                                                {link}
+                                            </a>
+                                        )}
                                     </li>
                                 ))}
                             </ul>
